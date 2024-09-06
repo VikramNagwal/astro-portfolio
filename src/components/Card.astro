@@ -1,0 +1,41 @@
+---
+import "@fontsource-variable/dosis";
+import "@fontsource-variable/playfair-display";
+
+interface Card {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const { title, description, imageURL } = Astro.props;
+---
+
+<section
+  class="border border-slate-800/80 bg-slate-950 text-white overflow-hidden rounded-md p-2 my-3"
+>
+  <div class="relative flex flex-col md:flex-row p-2 cursor-pointer">
+    <div class="w-44 h-44 overflow-hidden">
+      <img
+        src={imageURL}
+        alt="image not found"
+        class="w-full h-full object-cover transform scale-110 transition-transform duration-300 hover:scale-100"
+      />
+    </div>
+    <div class="flex flex-col p-3 py-2 m-2 text-pretty">
+      <h1 class="text-xl md:text-2xl font-bold">{title}</h1>
+      <p class="mt-2 leading-8 font-[Playfair Display Variable]">
+        {description}
+      </p>
+    </div>
+    <button class="px-3 py-2 rounded-full bg-[#0b1653] absolute right-12 top-20"
+      >Read More...</button
+    >
+  </div>
+</section>
+
+<style>
+  p {
+    font-family: "Playfair Display Variable", serif;
+  }
+</style>

@@ -1,0 +1,71 @@
+---
+import Intro from "./Intro.astro";
+import "@fontsource-variable/dosis";
+import Project from "./Project.astro";
+
+const data = [
+  "Built a tracking application",
+  "Used React, Node.js, and Prisma",
+  "Deployed using Docker",
+];
+---
+
+<section class="max-w-[1280px] mx-auto mt-[50px]">
+  <div class="mx-4 md:p-2 mt-6">
+    <h1 class="text-[#da7b16]">
+      General <span class="text-xl">/</span> Context
+    </h1>
+    <div class="mt-8">
+      <h1
+        id="main-heading"
+        class="text-3xl md:text-5xl font-bold md:font-black text-white"
+      >
+        I love building applications that solve real-world <span class="text-red-500">problems</span
+        >.
+      </h1>
+      <p class="text-white mt-4 sm:text-lg text-pretty tracking-normal">
+        I am a software engineer who loves building applications. I have
+        experience in building web applications using React, Astro, and Node.js.
+        I have also worked on mobile applications using React Native.
+      </p>
+
+      <Intro />
+      <!-- education -->
+      <div class="mt-4">
+        <p class="text-white">. Education</p>
+        <h1 class="text-[#da7b16] font-semibold sm:text-lg">
+          Bachelor's of Computer Applications
+        </h1>
+        <p class="text-lg font-semibold text-[#da7b16]">CGPA 8.2</p>
+      </div>
+
+      <!-- tools -->
+      <div class="mt-4">
+        <p class="text-white">. Tools</p>
+        <div class="flex flex-wrap">
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">React,</span>
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">Node.js,</span
+          >
+          <span class="text-lg font-semibold text-[#da7b16] mr-2"
+            >Tailwind CSS,</span
+          >
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">Astro,</span>
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">Express,</span
+          >
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">Prisma,</span>
+          <span class="text-lg font-semibold text-[#da7b16] mr-2">Docker</span>
+        </div>
+      </div>
+      <div class="mt-8">
+        <h1 class="text-white">.Projects</h1>
+        <Project keyPoints={data} />
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #main-heading {
+      font-family: "Dosis", sans-serif;
+    }
+  </style>
+</section>

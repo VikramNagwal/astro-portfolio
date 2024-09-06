@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Mountain View",
+    "description": "A breathtaking view of the mountains during sunset.",
+    "imageURL": "https://images.unsplash.com/photo-1724812773684-e93ac802c2e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8"
+  },
+  {
+    "id": 2,
+    "title": "Forest Path",
+    "description": "A peaceful path through a dense forest.",
+    "imageURL": "https://images.unsplash.com/photo-1719937206930-84afb0daf141?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "title": "City Skyline",
+    "description": "A vibrant city skyline at night with lights reflecting off the water.",
+    "imageURL": "https://images.unsplash.com/photo-1725283173796-b16b3ee61ad8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "title": "Beach Paradise",
+    "description": "A serene beach with clear blue waters and white sands.",
+    "imageURL": "https://images.unsplash.com/photo-1724776912349-918781add338?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "title": "Desert Dunes",
+    "description": "Golden sand dunes stretching across the desert under a clear sky.",
+    "imageURL": "https://images.unsplash.com/photo-1724271361924-ad07d11d4add?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "title": "Snowy Peaks",
+    "description": "Snow-covered mountain peaks under a bright blue sky.",
+    "imageURL": "https://example.com/images/snowy-peaks.jpg"
+  },
+  {
+    "id": 7,
+    "title": "City Park",
+    "description": "A beautiful city park with a pond and colorful trees in autumn.",
+    "imageURL": "https://example.com/images/city-park.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Tropical Island",
+    "description": "A stunning tropical island with palm trees and crystal-clear water.",
+    "imageURL": "https://example.com/images/tropical-island.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Sunflower Field",
+    "description": "A vast field of sunflowers in full bloom under a summer sky.",
+    "imageURL": "https://example.com/images/sunflower-field.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Night Sky",
+    "description": "A clear night sky filled with stars and the Milky Way.",
+    "imageURL": "https://example.com/images/night-sky.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Waterfall",
+    "description": "A powerful waterfall cascading down into a lush forest below.",
+    "imageURL": "https://example.com/images/waterfall.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Canyon Vista",
+    "description": "A sweeping view of a deep canyon with layers of red rock.",
+    "imageURL": "https://example.com/images/canyon-vista.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Riverbend",
+    "description": "A peaceful river winding through a green valley.",
+    "imageURL": "https://example.com/images/riverbend.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Sunrise Over Lake",
+    "description": "A calm lake reflecting the colors of the sunrise.",
+    "imageURL": "https://example.com/images/sunrise-over-lake.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Ancient Ruins",
+    "description": "Ruins of an ancient civilization surrounded by rugged terrain.",
+    "imageURL": "https://example.com/images/ancient-ruins.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Autumn Forest",
+    "description": "A forest with trees displaying brilliant autumn colors.",
+    "imageURL": "https://example.com/images/autumn-forest.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Lighthouse",
+    "description": "A lighthouse standing tall on a cliff overlooking the sea.",
+    "imageURL": "https://example.com/images/lighthouse.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Meadow Flowers",
+    "description": "A meadow filled with colorful wildflowers in the spring.",
+    "imageURL": "https://example.com/images/meadow-flowers.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Icy Glacier",
+    "description": "A massive glacier with bright blue ice against a snowy backdrop.",
+    "imageURL": "https://example.com/images/icy-glacier.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Foggy Forest",
+    "description": "A dense forest shrouded in fog, creating a mystical atmosphere.",
+    "imageURL": "https://example.com/images/foggy-forest.jpg"
+  }
+]
